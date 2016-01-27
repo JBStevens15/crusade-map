@@ -1,0 +1,95 @@
+body {
+		font-family: 'Metamorphous', cursive;
+		background: url("../images/Conquest_of_Jerusalem_1099.jpg");
+		background-size: cover;
+
+}
+.map1 {
+	position: relative;
+	border: solid;
+	border-width: .15em;
+	width: 44.2em;
+
+}
+button {
+	background: url('../images/Battle_icon_swords.png');
+	background-position: top;
+	width: 24px;
+	height: 18px;
+	border: none;
+}
+#crusade1introbutton {
+	background: none;
+	position: absolute;
+	z-index: 1;
+	top: 30em;
+	left: 40em;
+	font-weight: bold;
+	border: solid;
+	width: 4em;
+	height: 2em;
+	
+}
+#crusade1antiochbutton {
+	position: absolute;
+	top: 10em;
+	left: 27.4em;
+	z-index: 1;
+}
+#crusade1antioch2button {
+	position: absolute;
+	top: 11.95em;
+	left: 29em;
+	z-index: 1;
+}
+#crusade1jerusalembutton {
+	position: absolute;
+	top: 33.5em;
+	left: 24.9em;
+	z-index: 1;
+}
+#crusade1intro {
+
+}
+button:focus {
+	outline:0;
+}
+.container.col-md-4 {
+	position: relative;
+	background: url("../images/papyrus_background.jpg");
+	border: solid;
+	border-width: .15em;
+	border-radius: 10px;
+	padding: 15px;
+	margin-top: 2em;
+	overflow: auto;
+	height: 30em;
+	width: 45em;
+	font-size: 1.10em;
+	text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+	font-weight: bold;
+
+}
+
+#offset1 {
+	margin-left: 57em;
+}
+h1 {
+	 color: transparent;
+	 background: url("../images/papyrus_background.jpg") repeat;
+	 -webkit-background-clip: text;
+	 margin-left: 2em;
+}
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
